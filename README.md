@@ -2,8 +2,6 @@
 
 Project to create a simple To Do List. 
 
-🔗 **Live preview:** [here]()
-
 ## Built with
 * HTML
 * CSS
