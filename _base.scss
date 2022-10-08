@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+//breakpoints
+$bp-small: 35em; //560px
+$bp-medium: 47em; // 750px
+$bp-medium-large: 53em; //850px
+
+body {
+  min-height: 100vh;
+}

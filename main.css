@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.content__container {
+  background-image: url(https://images.unsplash.com/photo-1578852612716-854e527abf2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.list__container {
+  flex: 0 0 80%;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 80%;
+}
+@media only screen and (max-width: 35em) {
+  .list__container {
+    max-width: 60%;
+  }
+}
+@media only screen and (min-width: 35em) and (max-width: 47em) {
+  .list__container {
+    max-width: 60%;
+  }
+}
+@media only screen and (min-width: 47em) and (max-width: 53em) {
+  .list__container {
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 53em) {
+  .list__container {
+    max-width: 35%;
+  }
+}
+.list__items {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  list-style: none;
+  font-size: 1.8rem;
+  color: black;
+}
+.list__items:not(:first-child) {
+  margin-top: 1rem;
+}
+.list__content {
+  border-radius: 4px;
+  padding: 1rem;
+}
+.list__remove {
+  padding: 0.5rem;
+  width: 35%;
+  color: white;
+  background-color: #868555;
+  border: none;
+  border-radius: 2px;
+}
+
+.header__container {
+  border-bottom: 3px solid #d0bbac;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.header__content {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.header__title {
+  color: black;
+  text-align: center;
+}
+.header__input {
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+  padding: 0.2rem;
+  width: 100%;
+}
+.header__button {
+  padding: 0.5rem;
+  width: 35%;
+  color: white;
+  background-color: #868555;
+  border: none;
+  border-radius: 2px;
+}
+.header__error {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-left: 2.8rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
